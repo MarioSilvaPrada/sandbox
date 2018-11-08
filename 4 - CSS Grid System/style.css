@@ -1,0 +1,42 @@
+/* 
+nice tutorial video:
+https://www.youtube.com/watch?v=7kVeCqQCxlk 
+*/
+
+.box1,.box2,.box3,.box4,.box5{
+    border: solid 2px black;
+    padding:5px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns:1fr 2fr 3fr 2fr;
+    grid-template-rows: 1fr 8fr 6fr 5fr;
+    grid-gap:9px;
+    grid-template-areas: 
+    "title title title aside"
+    "main main . aside"
+    "text text text aside"
+    "footer footer footer footer"
+    
+  }
+  
+  .box5 {
+        grid-area: aside;
+        /* grid-column: 2/3;
+        grid-row:1/4; */
+  }
+
+  .box2 {
+      grid-area: footer;
+  }
+  .box1 {
+      grid-area: main;
+  }
+  .box3 {
+      grid-area: title;
+  }
+  .box4 {
+      grid-area: text;
+  }
