@@ -1,0 +1,20 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#typed {
+    color: greenyellow;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+.typed-cursor {
+    color:greenyellow;
+    display: inline;
+    font-weight: bold;
+    font-size: 2.5em;
+}
