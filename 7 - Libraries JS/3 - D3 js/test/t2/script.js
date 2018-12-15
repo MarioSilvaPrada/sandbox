@@ -1,0 +1,27 @@
+d3.select('#viz')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 500)
+    .style('background', '#93A1A1')
+
+
+d3.select('#viz svg')
+    .append('circle')
+    .attr('cx', 250)
+    .attr('cy', 250)
+    .attr('r', 250)
+    .style('fill', '#840043')
+
+d3.select('#viz svg')
+    .append('circle')
+    .attr('cx', 250)
+    .attr('cy', 250)
+    .attr('r', 150)
+    .style('fill', 'yellow')
+
+d3.select('#viz svg')
+    .append('circle')
+    .attr('cx', 250)
+    .attr('cy', 250)
+    .attr('r', 50)
+    .style('fill', 'orangered')

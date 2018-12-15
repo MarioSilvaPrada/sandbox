@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first D3</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>SVG Graphics</h2>
+        <div id='viz'>
+            <svg width='600' height='700' style='background: #ddd'>
+                <line x1='200' y1='600' x2='600' y2='300'
+                style='stroke: #268bd2; stroke-width: 40px' />
+
+                <rect x='200' y = '100'
+                width = '200' height = '200'
+                style = 'fill: orangered'/>
+
+                <g id='triangle'>
+                    <polyline 
+                    points = '200 350, 300 100, 500 350'
+                    style = 'fill: yellowgreen'/>
+                </g>
+            </svg>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
