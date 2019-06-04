@@ -1,0 +1,22 @@
+p {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+}
+
+p:nth-child(even) {background: #b0f4e6}
+p:nth-child(odd) {background:#58b368;}
+
+.hidden{
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
