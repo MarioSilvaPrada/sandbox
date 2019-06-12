@@ -1,0 +1,12 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 15rem;
+  height: 15rem;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
