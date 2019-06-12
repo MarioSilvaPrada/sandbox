@@ -11,6 +11,9 @@
           justify-content: space-evenly;
   width: 15rem;
   height: 15rem;
+  background: #525252;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
 }
 
 .product {
@@ -20,5 +23,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.description {
+  color: #ca3e47;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

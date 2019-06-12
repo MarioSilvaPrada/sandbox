@@ -1,12 +1,23 @@
+$red: #ca3e47;
+$black: #525252;
+
 .items {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 15rem;
   height: 15rem;
+  background: $black;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
 }
 
 .product {
   display: flex;
   justify-content: space-between;
+}
+
+.description {
+  color: $red;
+  font-weight: bold;
 }
